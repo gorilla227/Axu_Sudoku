@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A108BA14188BA2FB00479EA6 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A108BA13188BA2FB00479EA6 /* Coordinate.m */; };
+		A133BCBE1887A2D200912EB0 /* DataMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = A133BCBD1887A2D200912EB0 /* DataMatrix.m */; };
+		A139E0D018A840DB0062E433 /* BestRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A139E0CF18A840DB0062E433 /* BestRecordsViewController.m */; };
+		A14A6303189D961800ACAD15 /* PlayingTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A14A6302189D961800ACAD15 /* PlayingTimer.m */; };
+		A14A630B18A0CC4700ACAD15 /* BestRecords.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14A630A18A0CC4700ACAD15 /* BestRecords.plist */; };
+		A14A630D18A357F600ACAD15 /* PauseViewBg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A14A630C18A357F600ACAD15 /* PauseViewBg.JPG */; };
+		A14EA6491894E0AA00818185 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A14EA6481894E0AA00818185 /* LabelCell.m */; };
+		A19E2D3218A5F60D008EBDC6 /* MarkLabelCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A19E2D3118A5F60D008EBDC6 /* MarkLabelCellView.m */; };
 		A1B352601861750500E4E74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B3525F1861750500E4E74C /* Foundation.framework */; };
 		A1B352621861750500E4E74C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B352611861750500E4E74C /* CoreGraphics.framework */; };
 		A1B352641861750500E4E74C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B352631861750500E4E74C /* UIKit.framework */; };
@@ -14,7 +22,7 @@
 		A1B3526C1861750500E4E74C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B3526B1861750500E4E74C /* main.m */; };
 		A1B352701861750500E4E74C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B3526F1861750500E4E74C /* AppDelegate.m */; };
 		A1B352731861750500E4E74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B352711861750500E4E74C /* Main.storyboard */; };
-		A1B352761861750500E4E74C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B352751861750500E4E74C /* ViewController.m */; };
+		A1B352761861750500E4E74C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B352751861750500E4E74C /* MainViewController.m */; };
 		A1B352781861750500E4E74C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B352771861750500E4E74C /* Images.xcassets */; };
 		A1B3527F1861750500E4E74C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B3527E1861750500E4E74C /* XCTest.framework */; };
 		A1B352801861750500E4E74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B3525F1861750500E4E74C /* Foundation.framework */; };
@@ -34,6 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A108BA12188BA2FB00479EA6 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		A108BA13188BA2FB00479EA6 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		A133BCBC1887A2D200912EB0 /* DataMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMatrix.h; sourceTree = "<group>"; };
+		A133BCBD1887A2D200912EB0 /* DataMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataMatrix.m; sourceTree = "<group>"; };
+		A139E0CE18A840DB0062E433 /* BestRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestRecordsViewController.h; sourceTree = "<group>"; };
+		A139E0CF18A840DB0062E433 /* BestRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestRecordsViewController.m; sourceTree = "<group>"; };
+		A14A6301189D961800ACAD15 /* PlayingTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingTimer.h; sourceTree = "<group>"; };
+		A14A6302189D961800ACAD15 /* PlayingTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingTimer.m; sourceTree = "<group>"; };
+		A14A630A18A0CC4700ACAD15 /* BestRecords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BestRecords.plist; sourceTree = "<group>"; };
+		A14A630C18A357F600ACAD15 /* PauseViewBg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PauseViewBg.JPG; sourceTree = "<group>"; };
+		A14EA6471894E0AA00818185 /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LabelCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A14EA6481894E0AA00818185 /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		A19E2D3018A5F60D008EBDC6 /* MarkLabelCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkLabelCellView.h; sourceTree = "<group>"; };
+		A19E2D3118A5F60D008EBDC6 /* MarkLabelCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkLabelCellView.m; sourceTree = "<group>"; };
 		A1B3525C1861750500E4E74C /* Axu_Sudoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axu_Sudoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3525F1861750500E4E74C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1B352611861750500E4E74C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +67,8 @@
 		A1B3526E1861750500E4E74C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1B3526F1861750500E4E74C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A1B352721861750500E4E74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1B352741861750500E4E74C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1B352751861750500E4E74C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1B352741861750500E4E74C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A1B352751861750500E4E74C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A1B352771861750500E4E74C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A1B3527D1861750500E4E74C /* Axu_SudokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Axu_SudokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B3527E1861750500E4E74C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +101,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A139E0CC18A83E140062E433 /* Play Game */ = {
+			isa = PBXGroup;
+			children = (
+				A19E2D3418A5F64A008EBDC6 /* Model */,
+				A19E2D3318A5F61E008EBDC6 /* View */,
+				A14EA64D1896135400818185 /* Controllers */,
+				A1B352741861750500E4E74C /* MainViewController.h */,
+				A1B352751861750500E4E74C /* MainViewController.m */,
+			);
+			name = "Play Game";
+			sourceTree = "<group>";
+		};
+		A139E0CD18A840960062E433 /* Best Records */ = {
+			isa = PBXGroup;
+			children = (
+				A139E0CE18A840DB0062E433 /* BestRecordsViewController.h */,
+				A139E0CF18A840DB0062E433 /* BestRecordsViewController.m */,
+			);
+			name = "Best Records";
+			sourceTree = "<group>";
+		};
+		A14EA64D1896135400818185 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A14EA6471894E0AA00818185 /* LabelCell.h */,
+				A14EA6481894E0AA00818185 /* LabelCell.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A19E2D3318A5F61E008EBDC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A19E2D3018A5F60D008EBDC6 /* MarkLabelCellView.h */,
+				A19E2D3118A5F60D008EBDC6 /* MarkLabelCellView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A19E2D3418A5F64A008EBDC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A108BA12188BA2FB00479EA6 /* Coordinate.h */,
+				A108BA13188BA2FB00479EA6 /* Coordinate.m */,
+				A14A6301189D961800ACAD15 /* PlayingTimer.h */,
+				A14A6302189D961800ACAD15 /* PlayingTimer.m */,
+				A133BCBC1887A2D200912EB0 /* DataMatrix.h */,
+				A133BCBD1887A2D200912EB0 /* DataMatrix.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A1B352531861750500E4E74C = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +189,9 @@
 				A1B3526E1861750500E4E74C /* AppDelegate.h */,
 				A1B3526F1861750500E4E74C /* AppDelegate.m */,
 				A1B352711861750500E4E74C /* Main.storyboard */,
-				A1B352741861750500E4E74C /* ViewController.h */,
-				A1B352751861750500E4E74C /* ViewController.m */,
 				A1B352771861750500E4E74C /* Images.xcassets */,
+				A139E0CC18A83E140062E433 /* Play Game */,
+				A139E0CD18A840960062E433 /* Best Records */,
 				A1B352661861750500E4E74C /* Supporting Files */,
 			);
 			path = Axu_Sudoku;
@@ -126,10 +200,12 @@
 		A1B352661861750500E4E74C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A14A630C18A357F600ACAD15 /* PauseViewBg.JPG */,
 				A1B352671861750500E4E74C /* Axu_Sudoku-Info.plist */,
 				A1B352681861750500E4E74C /* InfoPlist.strings */,
 				A1B3526B1861750500E4E74C /* main.m */,
 				A1B3526D1861750500E4E74C /* Axu_Sudoku-Prefix.pch */,
+				A14A630A18A0CC4700ACAD15 /* BestRecords.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B352781861750500E4E74C /* Images.xcassets in Resources */,
+				A14A630D18A357F600ACAD15 /* PauseViewBg.JPG in Resources */,
 				A1B3526A1861750500E4E74C /* InfoPlist.strings in Resources */,
 				A1B352731861750500E4E74C /* Main.storyboard in Resources */,
+				A14A630B18A0CC4700ACAD15 /* BestRecords.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B352761861750500E4E74C /* ViewController.m in Sources */,
+				A139E0D018A840DB0062E433 /* BestRecordsViewController.m in Sources */,
+				A1B352761861750500E4E74C /* MainViewController.m in Sources */,
 				A1B352701861750500E4E74C /* AppDelegate.m in Sources */,
+				A14EA6491894E0AA00818185 /* LabelCell.m in Sources */,
+				A133BCBE1887A2D200912EB0 /* DataMatrix.m in Sources */,
+				A19E2D3218A5F60D008EBDC6 /* MarkLabelCellView.m in Sources */,
+				A14A6303189D961800ACAD15 /* PlayingTimer.m in Sources */,
+				A108BA14188BA2FB00479EA6 /* Coordinate.m in Sources */,
 				A1B3526C1861750500E4E74C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +544,7 @@
 				A1B352901861750500E4E74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1B352911861750500E4E74C /* Build configuration list for PBXNativeTarget "Axu_SudokuTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +553,7 @@
 				A1B352931861750500E4E74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
